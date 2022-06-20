@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background-color:aliceblue ;
+    font-family: 'Gentium Plus', serif;
+   
+}
+.container{
+    background-color: aqua;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/** Header Part Start **/
+header{
+    height: 180px;
+    background-color: rgb(13, 228, 110);
+}
+.profile-image{
+    width: 120px;
+    height: 140px;
+    border: 3px solid grey;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+.bio{
+    float: left;
+    padding:50px
+}
+.contact-info{
+    float:right;
+    padding: 50px;
+}
+.contact-info a{
+    text-decoration: none;
+    color:black
+}
+.contact-info a:hover{
+    color:blue;
+    font-weight: 700;
+
+}
+/** Header Part End **/
+.div-clear{
+    clear: both;
+}
+hr{
+    width: 100%;
+    margin:20px auto;
+    border:3px solid grey;
+    border-bottom: none;
+}
+/** Main Part Start **/
+main{
+
+}
+
+#personal-info{
+
+
+}
+.div-left{
+    width: 30%;
+    float:left;
+    color:blueviolet
+}
+.div-right{
+    width: 70%;
+    float:left;
+    color:rgb(0, 0, 0) 
+}
+.common-hr hr{
+    border: 1px solid grey;
+    border-bottom:none;
+    width:100%;
+    
+
+}
+.right-one{
+    width: 50%;
+    float:left;
+    text-align: justfy;
+}
+.right-two{
+    width: 50%;
+    float:left;
+    text-align: justify;
+}
+/** Main Part End **/
+/** Footer Part Start **/
+footer{
+    height: auto;
+    background-color: bisque;
+    text-align: center;
+}
+.social-link{
+   padding-top: 20px;
+   
+}
+.social-link a{
+   
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    padding: 20px;
+
+    
+}
+.social-link a:hover{
+    color:white;
+    background-color: black;
+}
+footer h3{
+    margin: 20px;
+}
+/** Footer Part End **/
